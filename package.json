@@ -1,27 +1,28 @@
 {
-    "name": "junex-ultra-session",
-    "description": "JuneX Ultra WhatsApp session generator",
-    "version": "1.0.0",
-    "main": "./index.js",
-  "engines" : { 
-    "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
-    },
-    "scripts": {
+  "name": "kandala-session",
+  "description": "KANDALA TECH WhatsApp session generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "24.x",
+    "npm": "12.x"
+  },
+  "scripts": {
     "start": "node index.js"
   },
-  "author": "JuneX Ultra",
+  "author": "KANDALA TECH",
   "license": "GPL-3.0",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.16",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
-    "phone" : "3.1.30",
-    "jimp" : "1.6.0",
-    "body-parser": "^1.20.1",
+    "phone": "3.1.30",
+    "jimp": "1.6.0",
+    "body-parser": "^1.20.2",
     "pastebin-js": "^1.0.6",
-    "express": "^4.18.1",
-    "path": "^0.12.7"
-   }
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "node-fetch": "^2.7.0"
+  }
 }
